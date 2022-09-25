@@ -35,6 +35,11 @@ img {
 }
 ul {
   padding: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 .active {
   color: var(--accent-blue);
@@ -94,8 +99,17 @@ ul {
 }
 .container {
   margin: 0 auto;
-  padding: 0px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
+}
+.container-header {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
 }
 .feature-about {
   color: var(--grey);
@@ -123,6 +137,11 @@ ul {
   gap: 30px;
   padding-bottom: 0;
 }
+.footer.container {
+  align-items: baseline;
+  display: flex;
+  gap: 70px;
+}
 .footer-link {
   display: block;
 }
@@ -133,7 +152,8 @@ ul {
   display: flex;
   gap: 50px;
   margin-left: auto;
-  padding-top: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-container {
   align-items: center;
@@ -146,7 +166,7 @@ ul {
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   ),
-  url("../images/hero-bcg.jpg");
+  url("../images/heading.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,12 +211,12 @@ ul {
   margin-bottom: 30px;
 }
 .icon.mail {
-  width: 16px;
   height: 12px;
+  width: 16px;
 }
 .icon.phone {
-  width: 10px;
   height: 16px;
+  width: 10px;
 }
 .index-header {
   border-bottom: 1px solid #ececec;
@@ -251,7 +271,8 @@ ul {
 .nav-item {
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 32px 0px;
+  padding-bottom: 32px;
+  padding-top: 32px;
   text-decoration: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -420,3 +441,15 @@ ul {
 .white {
   color: var(--white);
 }
+
+
+
+
+
+
+
+
+
+
+
+

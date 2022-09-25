@@ -20,25 +20,34 @@
       >
       <nav>
         <ul class="list nav-items">
+          <li><a href="./index.html" class="black-heading nav-item">Студія</a></li>
           <li>
-            <a href="./index.html" class="nav-item black-heading">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="active nav-item">Портфоліо</a>
+            <a href="./portfolio.html" class="active nav-item"
+              >Портфоліо</a
+            >
           </li>
           <li><a href="" class="nav-item black-heading">Контакти</a></li>
         </ul>
       </nav>
+      <div class="container-header">
       <ul class="list header-contacts">
-        <li>
+        <li class="contact">
           <a href="mailto:info@devstudio.com" class="contact"
-            >info@devstudio.com</a
+            >
+            <svg class="icon mail">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="contact">
+          <svg class="icon phone">
+            <use href="./images/icons.svg#icon-smartphone"></use>
+          </svg>
           <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a>
         </li>
       </ul>
+    </div>
     </div>
   </header>
   <main>
@@ -155,7 +164,8 @@
     </section>
   </main>
   <footer class="contacts">
-    <div class="container">
+    <div class="container footer">
+      <div>
       <a href=" " target="_blank" class="logo-footer"
         ><span class="active">Web</span>Studio</a
       >
@@ -175,10 +185,46 @@
             >
           </li>
           <li class="footer-link">
-            <a href="tel:+380961111111" class="link grey">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link grey"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
+    </div>
+      <div>
+        <p class="followership">Приєднуйтесь</p>
+        <ul class="list social-media-icons">
+          <li class="social-media-icon-bcg">
+            <a href="#" class="social-media-link white">
+              <svg class="social-media-icon">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-icon-bcg">
+            <a href="#" class="social-media-link white">
+              <svg class="social-media-icon">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-icon-bcg">
+            <a href="#" class="social-media-link white">
+              <svg class="social-media-icon">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-icon-bcg">
+            <a href="#" class="social-media-link white">
+              <svg class="social-media-icon">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 </html>
