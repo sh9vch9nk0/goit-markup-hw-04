@@ -53,8 +53,8 @@ ul {
   border-color: var(--accent-blue);
 }
 .client {
-  height: 60px;
-  width: 106px;
+  height: 92px;
+  width: 170px;
 }
 .clients {
   display: flex;
@@ -76,7 +76,9 @@ ul {
 }
 .client-link:hover,
 .client-link:focus {
+  border-color: var(--accent-blue);
   color: var(--accent-blue);
+  cursor: pointer;
 }
 .contact {
   align-items: center;
@@ -413,6 +415,12 @@ ul {
   justify-content: center;
   width: 100%;
 }
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: var(--accent-blue);
+  color: var(--white);
+}
+
 .team {
   display: flex;
   gap: 30px;
