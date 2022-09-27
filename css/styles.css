@@ -61,6 +61,12 @@ ul {
   gap: 30px;
   justify-content: center;
 }
+.client-icon {
+  fill: currentColor;
+  display: block;
+  height: 60px;
+  width: 106px;
+}
 .client-link {
   align-items: center;
   border: 1px solid var(--icon);
@@ -139,6 +145,14 @@ ul {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.followership {
+  color: var(--white);
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 20px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 .footer.container {
@@ -228,15 +242,6 @@ ul {
 .index-header {
   border-bottom: 1px solid #ececec;
 }
-.followership {
-  color: var(--white);
-  display: inline-block;
-  font-weight: 700;
-  line-height: 1.14;
-  margin-bottom: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 .light-grey {
   background-color: var(--light-grey);
   border-color: var(--light-grey);
@@ -274,10 +279,6 @@ ul {
   margin-bottom: 20px;
   text-decoration: none;
   width: 200px;
-}
-.loyal {
-  height: 60px;
-  width: 106px;
 }
 .menu {
   display: flex;
@@ -343,22 +344,18 @@ ul {
   gap: 30px;
 }
 .project {
-  background: var(--white);
-  border: 1px solid var(--white);
-  box-sizing: border-box;
-  margin: 0;
   width: 370px;
+}
+.project:hover,
+.project:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-about {
   border: 1px solid var(--light-grey);
   border-top: none;
   padding: 20px 24px;
 } 
-.project-image:hover,
-.project-image:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 .project-img {
   height: 294px;
   width: 370px;
@@ -397,6 +394,7 @@ ul {
   width: 370px;
 }
 .social-media-icon {
+  fill: currentColor;
   height: 20px;
   width: 20px;
 }
@@ -405,12 +403,8 @@ ul {
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 30px;
 }
 .social-media-icon-bcg {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  color: var(--icon);
   height: 44px;
   width: 44px;
 }
@@ -426,6 +420,10 @@ ul {
 .social-media-link:hover,
 .social-media-link:focus {
   background-color: var(--accent-blue);
+  color: var(--white);
+}
+.social-media-link.white {
+  background-color: rgba(255, 255, 255, 0.1);
   color: var(--white);
 }
 .team {
@@ -458,6 +456,7 @@ ul {
   color: var(--grey);
   font-size: 16px;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
   text-align: center;
 }
 .what-we-do {
