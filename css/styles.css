@@ -226,6 +226,7 @@ ul {
 }
 .icon {
   display: block;
+  fill: currentColor;
 }
 .icon-container {
   align-items: center;
