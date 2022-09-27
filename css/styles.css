@@ -120,6 +120,11 @@ ul {
   gap: 50px;
   margin-left: auto;
 }
+.sec-features {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 0;
+}
 .feature-about {
   color: var(--grey);
   letter-spacing: 0.03em;
@@ -424,6 +429,11 @@ ul {
 }
 .social-media-link.white {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+}
+.social-media-link.white:hover,
+.social-media-link.white:focus {
+  background-color: var(--accent-blue);
   color: var(--white);
 }
 .team {
