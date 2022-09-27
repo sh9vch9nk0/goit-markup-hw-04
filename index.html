@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
@@ -12,12 +18,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <title>WebStudio</title>
   </head>
   <body>
@@ -59,19 +59,16 @@
     </header>
     <main>
       <section class="heading">
-        <h1 class="heading-name">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="order-btn">Замовити послугу</button>
+        <div class="container">
+          <h1 class="heading-name">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="order-btn">Замовити послугу</button>
+        </div>
       </section>
-      <section class="section features">
+      <section class="section">
         <div class="container">
           <h2 class="hidden">Переваги</h2>
-          <ul class="container list features">
+          <ul class="list features-list">
             <li class="feature-card">
-              <div class="icon-container">
-                <svg class="icon feature-icon">
-                  <use href="./images/icons.svg#icon-satellite"></use>
-                </svg>
-              </div>
               <h3 class="feature-name">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="feature-about">
                 Ідейні міркування, і навіть початок повсякденної роботи з
@@ -79,11 +76,6 @@
               </p>
             </li>
             <li class="feature-card">
-              <div class="icon-container">
-                <svg class="icon feature-icon">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
               <h3 class="feature-name">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="feature-about">
                 Завдання організації, особливо рамки і місце навчання кадрів
@@ -91,22 +83,12 @@
               </p>
             </li>
             <li class="feature-card">
-              <div class="icon-container">
-                <svg class="icon feature-icon">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
               <h3 class="feature-name">ПЛАНУВАННЯ</h3>
               <p class="feature-about">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="feature-card">
-              <div class="icon-container">
-                <svg class="icon feature-icon">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
               <h3 class="feature-name">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="feature-about">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -115,7 +97,6 @@
             </li>
           </ul>
         </div>
-      </section>
       <section class="section what-we-do">
         <div class="container">
           <h2 class="sec-heading">Чим ми займаємося</h2>
